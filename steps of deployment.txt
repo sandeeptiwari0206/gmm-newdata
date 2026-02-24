@@ -1,0 +1,10 @@
+Your 8 Deployment Steps
+
+Verify AWS credentials & S3 bucket exists
+pip install sagemaker boto3
+python scripts/create_pipeline.py --upload-data → uploads your 3 CSVs to S3
+python scripts/create_pipeline.py --upsert → creates the pipeline in SageMaker
+python scripts/create_pipeline.py --upsert --start → runs it
+Monitor in AWS Console → SageMaker → Pipelines
+Download output: aws s3 cp s3://gmm-recommendation-bucket/gmm-recommendation/recommendations/all_customer_recommendations.csv ./
+(Optional) Deploy real-time endpoint

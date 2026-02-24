@@ -1,0 +1,69 @@
+sagemaker-user@default:~/GMM-custom$ history
+    1  pip install --upgrade pip
+    2  pip install -r requirements.txt
+    3  pip install boto3 sagemaker
+    4  git clone https://github.com/sandeeptiwari0206/gmm-newdata.git
+    5  ls
+    6  ls -al
+    7  cd gmm-newdata/
+    8  ls
+    9  ls -al
+   10  unzip GMM\ with\ new\ data.zip 
+   11  unzip data.zip 
+   12  unzip data
+   13  cd ..
+   14  ls -al
+   15  rm -rf gmm-newdata/
+   16  git clone https://github.com/sandeeptiwari0206/gmm-newdata.git
+   17  ls -al
+   18  cd gmm-newdata/
+   19  ls -al
+   20  inzip GMM_with_new_data.zip 
+   21  unzip GMM_with_new_data.zip 
+   22  apt install zip
+   23  ls
+   24  cd GMM_with_new_data
+   25  ls
+   26  mv GMM-custom-dataset-project.zip /home/sagemaker-user/gmm-newdata/
+   27  ls
+   28  cd ../..
+   29  ls
+   30  cd gmm-newdata/
+   31  ls
+   32  rm -rf GMM_with_new_data GMM_with_new_data.zip 
+   33  ls
+   34  unzip GMM-custom-dataset-project.zip 
+   35  ls
+   36  mv GMM-custom ..
+   37  cd ..
+   38  ls
+   39  rm -rf gmm-newdata/
+   40  cd GMM-custom/
+   41  ls
+   42  ls -al
+   43  nano config/config.yaml 
+   44  pip install sagemaker boto3
+   45  python scripts/create_pipeline.py --upload-data
+   46  python scripts/create_pipeline.py --upsert
+   47  python scripts/create_pipeline.py --upsert --start
+   48  python scripts/check_pipeline_logs.py
+   49  python scripts/check_pipeline_logs.py
+   50  python scripts/check_pipeline_logs.py
+   51  python scripts/check_pipeline_logs.py
+   52  python scripts/check_pipeline_logs.py
+   53  python scripts/check_pipeline_logs.py
+   54  python scripts/check_pipeline_logs.py
+   55  python scripts/check_pipeline_logs.py
+   56  nano scripts/create_pipeline.py
+   57  python scripts/create_pipeline.py --upsert --start
+   58  python scripts/check_pipeline_logs.py
+   59  python scripts/check_pipeline_logs.py
+   60  python scripts/check_pipeline_logs.py
+   61  python scripts/check_pipeline_logs.py
+   62  python scripts/check_pipeline_logs.py
+   63  python scripts/check_pipeline_logs.py
+   64  free -m
+   65  top c
+   66  python scripts/check_pipeline_logs.py
+   67  python scripts/check_pipeline_logs.py
+   68  python scripts/check_pipeline_logs.py
